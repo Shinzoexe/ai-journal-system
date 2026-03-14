@@ -8,7 +8,7 @@ const [result,setResult] = useState(null);
 
 const submitJournal = async () => {
 
-const res = await axios.post("http://localhost:5000/api/journal",{
+const res = await axios.post("https://ai-journal-system-y0xp.onrender.com/api/journal",{
 userId:"123",
 text:text
 });
